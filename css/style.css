@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* css document */
+
+*{
+    margin: 0;
+    padding: 0;
+    section-sizing: border-section;
+}
+:root{
+    --bg-color: #fafafa;
+    --section-bg: linear-gradient(181.06deg, #312A5F 0.91%, rgba(45, 38, 88, 0.881859) 173.01%, rgba(13, 9, 36, 0) 255.54%);
+}
+@font-face{
+    font-family: "roboto";
+    src:url("../font/Roboto-Regular.ttf");
+}
+body{
+    font-family: "roboto", "sans-serif";
+    background-color: var(--bg-color);
+}
+
+.video-section{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video-section .owl-row{
+    padding: 20px 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(171, 245, 177);
+}
+.video-section .owl-row .owl-column{
+    height: 350px;
+    background-color: aqua
+}
